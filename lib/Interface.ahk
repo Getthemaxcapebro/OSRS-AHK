@@ -269,7 +269,6 @@ class Inventory {
     }
 
     ClickColor(color) {
-        time := A_TickCount
         Loop, 28 {
             currentSlot := A_Index
             slot := this.GetSlotCoordinates(currentSlot)
