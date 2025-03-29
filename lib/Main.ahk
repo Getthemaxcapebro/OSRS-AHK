@@ -22,7 +22,7 @@ WinMove, RuneLite, ,  428, 102, 1080, 800
 #Include, WindHumanMouse.ahk
 #Include, Interface.ahk
 
-global globalDebug := true
+global globalDebug := false
 
 Global Red := 0xFF0000
 Global Blue := 0x0000FF
