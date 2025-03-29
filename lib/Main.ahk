@@ -18,11 +18,11 @@ DetectHiddenWindows On
 WinActivate, RuneLite
 WinMove, RuneLite, ,  428, 102, 1080, 800
 
-#Include, C:\Users\PC\Desktop\OSAHK\lib\Math.ahk
-#Include, C:\Users\PC\Desktop\OSAHK\lib\WindHumanMouse.ahk
-#Include, C:\Users\PC\Desktop\OSAHK\lib\Interface.ahk
+#Include, Math.ahk
+#Include, WindHumanMouse.ahk
+#Include, Interface.ahk
 
-global globalDebug := false
+global globalDebug := true
 
 Global Red := 0xFF0000
 Global Blue := 0x0000FF
@@ -32,9 +32,9 @@ Global Cyan := 0x00FFFF
 Global Black := 0x000000
 Global Yellow := 0xFFFF00
 
-global Equipment := new EquipmentTab()
-global Inventory := new Inventory()
-global Prayer := new PrayerBook()
+;global Equipment := new EquipmentTab()
+;global Inventory := new Inventory()
+;global Prayer := new PrayerBook()
 global Interface := new Tabs()
 
 
