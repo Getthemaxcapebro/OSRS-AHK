@@ -32,9 +32,9 @@ Global Cyan := 0x00FFFF
 Global Black := 0x000000
 Global Yellow := 0xFFFF00
 
-;global Equipment := new EquipmentTab()
-;global Inventory := new Inventory()
-;global Prayer := new PrayerBook()
+global Equipment := new EquipmentTab()
+global Inventory := new Inventory()
+global Prayer := new PrayerBook()
 global Interface := new Tabs()
 
 
